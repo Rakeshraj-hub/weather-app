@@ -51,7 +51,7 @@ function App() {
   return (
     <div className="App">
         <div>
-        <input type={text} value={data} onChange={handleChange} placeholder='Enter city name' style={{height:30, width:180}}/>
+        <input type='text' value={data} onChange={handleChange} placeholder='Enter city name' style={{height:30, width:180}}/>
         <button onClick={fetchData} style={{color:'white', backgroundColor:'green', height:30, width:80, margin:10, borderRadius:5, cursor:'pointer'}}>Search</button>
         </div>
         {loading && <p>Loading data...</p>}
